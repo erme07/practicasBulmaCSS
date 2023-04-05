@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+    <script
+      src="https://kit.fontawesome.com/768709101c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
@@ -44,7 +48,8 @@
       </div>
     </nav>
 
-    <section class="hero is-dark is-fullheight-with-navbar">
+    <section class="hero is-dark is-fullheight-with-navbar is-relative">
+      <div class="overlay is-overlay"></div>
       <div class="hero-body">
         <div class="container has-text-centered is-uppercase">
           <p class="title is-1 has-text-weight-bold">
@@ -53,13 +58,143 @@
           <p class="subtitle">made it with bulma css</p>
         </div>
       </div>
+      <div class="hero-foot">
+        <div class="container has-text-centered">
+          <span class="icon is-large">
+            <a href="#blog"><i class="fa-solid fa-angle-down fa-2x"></i></a>
+          </span>
+        </div>
+      </div>
     </section>
-    <section class="section blog">
+    <section class="section blog" id="blog">
       <div class="container has-text-centered">
         <h2 class="title is 2 has-text-light">BLOG</h2>
-        <div class="columns">
-          <div class="column is-6">sda</div>
-          <div class="column is-6">adasd</div>
+        <div
+          class="columns is-centered is-vcentered mt-6 is-variable is-3-tablet is-8-desktop"
+        >
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+            <figure class="image is-1by1">
+              <img src="https://picsum.photos/400" />
+            </figure>
+          </div>
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+            <h2 class="title is-3 has-text-weight-bold has-text-light">
+              Titulo del articulo
+            </h2>
+            <p class="block has-text-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, laborum libero. Libero laboriosam autem, ab amet
+              excepturi ex repellat iusto recusandae quos? Quibusdam et dolores
+              consequuntur quos impedit accusantium labore.
+            </p>
+          </div>
+        </div>
+        <div
+          class="columns is-centered is-vcentered mt-6 is-flex-direction-row-reverse is-variable is-3-tablet is-8-desktop"
+        >
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+            <figure class="image is-1by1">
+              <img src="https://picsum.photos/400" />
+            </figure>
+          </div>
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+            <h2 class="title is-3 has-text-weight-bold has-text-light">
+              Titulo del articulo
+            </h2>
+            <p class="block has-text-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, laborum libero. Libero laboriosam autem, ab amet
+              excepturi ex repellat iusto recusandae quos? Quibusdam et dolores
+              consequuntur quos impedit accusantium labore.
+            </p>
+          </div>
+        </div>
+        <div
+          class="columns is-centered is-vcentered mt-6 mb-6 is-variable is-3-tablet is-8-desktop"
+        >
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+            <figure class="image is-1by1">
+              <img src="https://picsum.photos/400" />
+            </figure>
+          </div>
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen">
+            <h2 class="title is-3 has-text-weight-bold has-text-light">
+              Titulo del articulo
+            </h2>
+            <p class="block has-text-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, laborum libero. Libero laboriosam autem, ab amet
+              excepturi ex repellat iusto recusandae quos? Quibusdam et dolores
+              consequuntur quos impedit accusantium labore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Text input" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input
+              class="input is-danger"
+              type="email"
+              placeholder="Email input"
+              value="hello@"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <p class="help is-danger">This email is invalid</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Subject</label>
+          <div class="control">
+            <div class="select">
+              <select>
+                <option>Select dropdown</option>
+                <option>With options</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" />
+              I agree to the <a href="#">terms and conditions</a>
+            </label>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
         </div>
       </div>
     </section>
