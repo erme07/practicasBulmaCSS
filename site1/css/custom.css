@@ -7,8 +7,15 @@
 html {
   scroll-behavior: smooth;
 }
-.navbar {
+.navbar,
+.navbar-menu {
   background-color: var(--main-color);
+}
+.navbar-menu a {
+  color: var(--text-color);
+}
+.navbar-menu a:hover {
+  color: var(--main-color);
 }
 .hero {
   background-image: url("https://picsum.photos/id/20/1280/720");
