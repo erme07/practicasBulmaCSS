@@ -15,6 +15,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 3.25rem;
 }
 .hero-foot .icon {
   background-color: var(--main-color);
@@ -25,6 +26,40 @@ html {
 .blog {
   background-color: var(--back-color);
 }
+.gallery {
+  background-color: var(--second-color);
+}
+.about {
+  background-color: var(--back-color);
+}
+.map {
+  width: 100%;
+  height: 400px;
+}
 .contact {
   background-color: var(--second-color);
+}
+.contact .input:active,
+.contact .input:focus,
+.contact .textarea:active,
+.contact .textarea:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 0.125em rgb(72, 50, 63, 0.25);
+}
+
+.contact .button {
+  background-color: #eff1fa;
+  color: var(--main-color);
+}
+.contact .button:active,
+.contact .button:focus {
+  border-color: var(--main-color);
+}
+.contact .submit {
+  background-color: var(--main-color);
+  border-color: transparent;
+  color: white;
+}
+.footer {
+  background-color: var(--main-color);
 }
