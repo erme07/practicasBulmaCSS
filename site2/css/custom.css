@@ -8,6 +8,23 @@ hr {
 h3.title {
   margin-bottom: 1rem !important;
 }
+.hero {
+  background-image: url("https://picsum.photos/id/361/1400/650");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3.25rem;
+  /* margin-bottom: 6rem; */
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+/* .hero-foot {
+  margin-bottom: -6rem;
+} */
 .hero-foot div {
   background-color: #d8dae9;
 }
@@ -16,10 +33,10 @@ h3.title {
 }
 .titles-bottom hr:first-child {
   position: absolute;
-  left: calc(50% - 2%);
+  left: calc(50% - 3rem);
   top: 0;
   background-color: #c83314;
-  width: 4%;
+  width: 6rem;
   margin: 0;
 }
 .card {
@@ -49,5 +66,5 @@ h3.title {
 }
 .pagination-link.is-current {
   background-color: #c83314;
-  border-color: #c83314;
+  border-color: rgb(200, 51, 20);
 }
