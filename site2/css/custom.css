@@ -18,7 +18,7 @@ h3.title {
   position: absolute;
   left: calc(50% - 2%);
   top: 0;
-  background-color: red;
+  background-color: #c83314;
   width: 4%;
   margin: 0;
 }
@@ -30,6 +30,9 @@ h3.title {
   background-color: white;
   border: 1px solid #dcdcdc;
 }
+.tag {
+  background-color: #c83314 !important;
+}
 .card footer {
   margin-top: 0.3rem;
 }
@@ -40,4 +43,11 @@ h3.title {
 }
 .card-content {
   border-top: 0;
+}
+.card-content .button:focus {
+  border-color: #c83314;
+}
+.pagination-link.is-current {
+  background-color: #c83314;
+  border-color: #c83314;
 }
