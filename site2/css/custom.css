@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f4f4;
+}
+hr {
+  background-color: #dfdfdf;
+  margin: 1rem 0 1.5rem;
+}
+h3.title {
+  margin-bottom: 1rem !important;
+}
+.hero-foot div {
+  background-color: #d8dae9;
+}
+.titles-bottom {
+  position: relative;
+}
+.titles-bottom hr:first-child {
+  position: absolute;
+  left: calc(50% - 2%);
+  top: 0;
+  background-color: red;
+  width: 4%;
+  margin: 0;
+}
+.card {
+  box-shadow: none;
+  background-color: transparent;
+}
+.card > * {
+  background-color: white;
+  border: 1px solid #dcdcdc;
+}
+.card footer {
+  margin-top: 0.3rem;
+}
+.card-image {
+  padding: 1.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.card-content {
+  border-top: 0;
+}
