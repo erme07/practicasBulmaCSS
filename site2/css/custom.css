@@ -28,7 +28,7 @@ h3.title {
 .hero-foot > div {
   background-color: #d8dae9;
 }
-figcaption {
+.hero figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -74,4 +74,18 @@ figcaption {
 .pagination-link.is-current {
   background-color: #c83314;
   border-color: rgb(200, 51, 20);
+}
+.proyect figcaption {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+.proyect figcaption span {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  margin-top: 4rem;
+}
+.proyect figure:hover figcaption {
+  transform: translateY(0%);
 }
