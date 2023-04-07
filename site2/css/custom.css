@@ -5,11 +5,15 @@ hr {
   background-color: #dfdfdf;
   margin: 1rem 0 1.5rem;
 }
+.footer hr {
+  background-color: #272727;
+}
 h3.title {
   margin-bottom: 1rem !important;
 }
 .hero {
   background-image: url("https://picsum.photos/id/361/1400/650");
+  background-image: url("../img/Background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +24,7 @@ h3.title {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /* .hero-foot {
   margin-bottom: -6rem;
@@ -88,4 +92,24 @@ h3.title {
 }
 .proyect figure:hover figcaption {
   transform: translateY(0%);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.596);
+  background-image: url("../img/Background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  padding-top: 3rem;
+}
+.subfooter {
+  background-color: black;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+.social .icon {
+  background-color: aliceblue;
+  border-radius: 50%;
+  color: black !important;
 }
