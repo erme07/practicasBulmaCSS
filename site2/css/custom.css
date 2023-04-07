@@ -100,16 +100,34 @@ h3.title {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 0;
-  padding-top: 3rem;
+  /* padding: 0;
+  padding-top: 3rem; */
+  padding-bottom: 0;
+}
+.logo-footer {
+  max-width: 200px;
+  height: auto;
+}
+.main-footer {
+  padding-bottom: 10rem;
+}
+@media screen and (min-width: 769px) {
+  .main-footer {
+    padding-bottom: 6rem;
+  }
 }
 .subfooter {
   background-color: black;
   margin-top: 3rem;
   padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 .social .icon {
   background-color: aliceblue;
   border-radius: 50%;
   color: black !important;
+  gap: 1rem;
 }
