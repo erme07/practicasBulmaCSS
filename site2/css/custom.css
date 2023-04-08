@@ -23,6 +23,16 @@ h3.title {
 .navbar {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
+.navbar-menu {
+  background-color: transparent;
+  color: white;
+}
+a.navbar-item.is-active,
+a.navbar-item:hover,
+.navbar-link:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
