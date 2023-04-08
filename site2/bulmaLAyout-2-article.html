@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Layout 2</title>
+    <script
+      src="https://kit.fontawesome.com/768709101c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <section class="hero is-relative">
+      <div class="overlay is-overlay"></div>
+      <div class="hero-head is-relative">
+        <nav class="navbar is-fixed-top is-dark">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="img/logo.png" alt="Logo" />
+              </a>
+              <span class="navbar-burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active"> Home </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link has-text-light"> Category </a>
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item has-text-grey-lighter"> Travel </a>
+                    <a class="navbar-item has-text-grey-lighter">
+                      Photograph
+                    </a>
+                    <a class="navbar-item has-text-grey-lighter"> Music </a>
+                  </div>
+                </div>
+                <a class="navbar-item has-text-light"> Blog </a>
+                <a class="navbar-item has-text-light"> Proyect </a>
+                <a class="navbar-item has-text-light"> Contact </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body is-relative has-text-centered">
+        <div class="">
+          <p class="title has-text-light is-uppercase">Slogan and tagline</p>
+        </div>
+      </div>
+      <div class="hero-foot is-relative">
+        <div class="p-3 container">
+          <div class="columns is-variable is-1-tablet is-3-desktop">
+            <div class="column is-4">
+              <figure class="image is-2by1">
+                <img src="https://picsum.photos/id/191/600/300" />
+                <figcaption
+                  class="has-text-light is-uppercase has-text-weight-semibold is-size-6"
+                >
+                  travel
+                </figcaption>
+              </figure>
+            </div>
+            <div class="column is-4">
+              <figure class="image is-2by1">
+                <img src="https://picsum.photos/id/250/600/300" />
+                <figcaption
+                  class="has-text-light is-uppercase has-text-weight-semibold is-size-6"
+                >
+                  photograph
+                </figcaption>
+              </figure>
+            </div>
+            <div class="column is-4">
+              <figure class="image is-2by1">
+                <img src="https://picsum.photos/id/452/600/300" />
+                <figcaption
+                  class="has-text-light is-uppercase has-text-weight-semibold is-size-6"
+                >
+                  music
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8 content">
+            <article>
+              <h1>Hello World</h1>
+              <p>
+                Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur
+                adipiscing elit. Nulla accumsan, metus ultrices eleifend
+                gravida, nulla nunc varius lectus, nec rutrum justo nibh eu
+                lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin
+                vel erat vel, interdum mattis neque. Sub<sub>script</sub> works
+                as well!
+              </p>
+              <h2>Second level</h2>
+              <p>
+                Curabitur accumsan turpis pharetra
+                <strong>augue tincidunt</strong> blandit. Quisque condimentum
+                maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna
+                vel cursus venenatis. Suspendisse potenti. Etiam mattis sem
+                rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et
+                neque nisl.
+              </p>
+              <ul>
+                <li>
+                  In fermentum leo eu lectus mollis, quis dictum mi aliquet.
+                </li>
+                <li>
+                  Morbi eu nulla lobortis, lobortis est in, fringilla felis.
+                </li>
+                <li>
+                  Aliquam nec felis in sapien venenatis viverra fermentum nec
+                  lectus.
+                </li>
+                <li>Ut non enim metus.</li>
+              </ul>
+              <h3>Third level</h3>
+              <p>
+                Quisque ante lacus, malesuada ac auctor vitae, congue
+                <a href="#">non ante</a>. Phasellus lacus ex, semper ac tortor
+                nec, fringilla condimentum orci. Fusce eu rutrum tellus.
+              </p>
+              <ol>
+                <li>Donec blandit a lorem id convallis.</li>
+                <li>Cras gravida arcu at diam gravida gravida.</li>
+                <li>Integer in volutpat libero.</li>
+                <li>Donec a diam tellus.</li>
+                <li>Aenean nec tortor orci.</li>
+                <li>
+                  Quisque aliquam cursus urna, non bibendum massa viverra eget.
+                </li>
+                <li>Vivamus maximus ultricies pulvinar.</li>
+              </ol>
+              <blockquote>
+                Ut venenatis, nisl scelerisque sollicitudin fermentum, quam
+                libero hendrerit ipsum, ut blandit est tellus sit amet turpis.
+              </blockquote>
+              <h4>Fourth level</h4>
+              <p>
+                Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed
+                tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet
+                ligula mi, in luctus elit volutpat porta. Phasellus molestie
+                diam vel nisi sodales, a eleifend augue laoreet. Sed nec
+                eleifend justo. Nam et sollicitudin odio.
+              </p>
+              <figure>
+                <img src="https://bulma.io/images/placeholders/256x256.png" />
+                <img src="https://bulma.io/images/placeholders/256x256.png" />
+                <figcaption>Figure 1: Some beautiful placeholders</figcaption>
+              </figure>
+
+              <h5>Fifth level</h5>
+              <p>
+                Nulla efficitur eleifend nisi, sit amet bibendum sapien
+                fringilla ac. Mauris euismod metus a tellus laoreet, at
+                elementum ex efficitur.
+              </p>
+              <p>
+                Phasellus porttitor enim id metus volutpat ultricies. Ut nisi
+                nunc, blandit sed dapibus at, vestibulum in felis. Etiam iaculis
+                lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula
+                sit amet ullamcorper. Etiam tristique, leo vitae porta faucibus,
+                mi lacus laoreet metus, at cursus leo est vel tellus. Sed ac
+                posuere est. Nunc ultricies nunc neque, vitae ultricies ex
+                sodales quis. Aliquam eu nibh in libero accumsan pulvinar.
+                Nullam nec nisl placerat, pretium metus vel, euismod ipsum.
+                Proin tempor cursus nisl vel condimentum. Nam pharetra varius
+                metus non pellentesque.
+              </p>
+
+              <div class="tags">
+                <span class="tag">One</span>
+                <span class="tag">Two</span>
+                <span class="tag">Three</span>
+              </div>
+            </article>
+            <div class="media my-6">
+              <figure class="media-left">
+                <p class="image is-128x128">
+                  <img
+                    class="is-rounded"
+                    src="https://bulma.io/images/placeholders/128x128.png"
+                  />
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>John Smith</strong> <small>@johnsmith</small>
+                    <small>31m</small>
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin ornare magna eros, eu pellentesque tortor vestibulum
+                    ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                    facilisis.
+                  </p>
+                </div>
+                <nav class="level is-mobile">
+                  <div class="level-left">
+                    <a class="level-item">
+                      <span class="icon is-small"
+                        ><i class="fas fa-reply"></i
+                      ></span>
+                    </a>
+                    <a class="level-item">
+                      <span class="icon is-small"
+                        ><i class="fas fa-retweet"></i
+                      ></span>
+                    </a>
+                    <a class="level-item">
+                      <span class="icon is-small"
+                        ><i class="fas fa-heart"></i
+                      ></span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-4">
+                <div class="notification is-link">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt, quo cumque ab sint qui
+                </div>
+              </div>
+              <div class="column is-4">
+                <div class="notification is-link">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt
+                </div>
+              </div>
+              <div class="column is-4">
+                <div class="notification is-link">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt, quo cumque ab sint qui sapiente
+                </div>
+              </div>
+            </div>
+            <div class="media my-6">
+              <figure class="media-left">
+                <p class="image is-64x64">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="field">
+                  <p class="control">
+                    <textarea
+                      class="textarea"
+                      placeholder="Add a comment..."
+                    ></textarea>
+                  </p>
+                </div>
+                <nav class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <a class="button is-info">Submit</a>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                      <label class="checkbox">
+                        <input type="checkbox" /> Press enter to submit
+                      </label>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <aside class="column is-4">
+            <div class="notification is-link">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+              perferendis autem! Dicta corrupti enim voluptates dolorum tenetur
+              commodi! Iste, molestias.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="section footer is-relative">
+      <div class="is-overlay overlay"></div>
+      <div class="container main-footer">
+        <div class="columns is-variable is-3-tablet is-7-desktop is-multiline">
+          <div class="column is-12-tablet is-4-desktop has-text-centered mb-4">
+            <div class="content has-text-grey-lighter">
+              <img class="logo-footer my-3" src="img/logo.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                tenetur ullam ut quis corrupti incidunt ex eius reiciendis eum
+                dolorem?
+              </p>
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                454-3467
+              </span>
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              correo@undominio.com
+            </div>
+          </div>
+          <div class="column is-6-tablet is-5-desktop">
+            <h3 class="title is-4 has-text-centered has-text-light">
+              LATEST POST
+            </h3>
+            <div class="titles-bottom">
+              <hr />
+              <hr />
+            </div>
+            <div class="content">
+              <h2 class="title is-6 mt-3 has-text-light">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </h2>
+              <p class="subtitle is-size-7 has-text-grey">
+                Posted on
+                <time class="" datetime="2016-1-1">1 Jan 2016</time>
+                by Fulano
+              </p>
+              <h2 class="title is-6 mt-3 has-text-light">
+                Lorem ipsum dolor sit amet.
+              </h2>
+              <p class="subtitle is-size-7 has-text-grey">
+                Posted on
+                <time class="" datetime="2016-1-1">1 Jan 2016</time>
+                by Fulano
+              </p>
+              <h2 class="title is-6 mt-3 has-text-light">
+                Lorem ipsum dolor sit amet consectetur.
+              </h2>
+              <p class="subtitle is-size-7 has-text-grey">
+                Posted on
+                <time class="" datetime="2016-1-1">1 Jan 2016</time>
+                by Fulano
+              </p>
+              <h2 class="title is-6 mt-3 has-text-light">
+                Lorem ipsum dolor sit..
+              </h2>
+              <p class="subtitle is-size-7 has-text-grey">
+                Posted on
+                <time class="" datetime="2016-1-1">1 Jan 2016</time>
+                by Fulano
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-6-tablet is-3-desktop">
+            <h3 class="title is-4 has-text-centered has-text-light">TAGS</h3>
+            <div class="titles-bottom">
+              <hr />
+              <hr />
+            </div>
+            <div class="tags">
+              <span class="tag is-dark">One</span>
+              <span class="tag is-dark">Two</span>
+              <span class="tag is-dark">Three</span>
+              <span class="tag is-dark">Four</span>
+              <span class="tag is-dark">Five</span>
+              <span class="tag is-dark">Six</span>
+              <span class="tag is-dark">Seven</span>
+              <span class="tag is-dark">Eight</span>
+              <span class="tag is-dark">Nine</span>
+              <span class="tag is-dark">Ten</span>
+              <span class="tag is-dark">Eleven</span>
+              <span class="tag is-dark">Twelve</span>
+              <span class="tag is-dark">Thirteen</span>
+              <span class="tag is-dark">Fourteen</span>
+              <span class="tag is-dark">Fifteen</span>
+              <span class="tag is-dark">Sixteen</span>
+              <span class="tag is-dark">Seventeen</span>
+              <span class="tag is-dark">Eighteen</span>
+              <span class="tag is-dark">Nineteen</span>
+              <span class="tag is-dark">Twenty</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subfooter">
+        <div class="container">
+          <div class="columns is-flex-direction-row-reverse">
+            <div
+              class="column social has-text-centered-mobile has-text-right-tablet"
+            >
+              <span class="icon is-medium mx-1">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+              </span>
+              <span class="icon is-medium mx-1">
+                <i class="fa-brands fa-square-facebook fa-lg"></i>
+              </span>
+              <span class="icon is-medium mx-1">
+                <i class="fa-brands fa-youtube fa-lg"></i>
+              </span>
+              <span class="icon is-medium mx-1">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </span>
+              <span class="icon is-medium mx-1">
+                <i class="fa-brands fa-square-pinterest fa-lg"></i>
+              </span>
+            </div>
+            <div class="column has-text-centered-mobile has-text-left-tablet">
+              <span class="icon-text is-size-7 has-text-light"
+                >Copyright
+                <span class="icon">
+                  <i class="fa-regular fa-copyright"></i>
+                </span>
+                2023 - All right reserved :P
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
