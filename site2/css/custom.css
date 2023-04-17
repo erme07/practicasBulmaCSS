@@ -218,6 +218,13 @@ a.navbar-item:hover,
   .slides {
     height: calc(960px / 3);
   }
+  .navbar-dropdown {
+    background-color: #272727;
+    border-top: 2px solid #c83314;
+  }
+  .navbar-dropdown a.navbar-item:hover {
+    background-color: #1a1a1a;
+  }
 }
 @media screen and (min-width: 1216px) {
   .slides {
@@ -237,5 +244,5 @@ a.navbar-item:hover,
 
 .prev-btn:hover,
 .next-btn:hover {
-  background-color: #3b3b3b !important;
+  background-color: #272727 !important;
 }
