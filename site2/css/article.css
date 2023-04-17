@@ -1,0 +1,10 @@
+.hero {
+}
+main {
+  transform: translateY(calc(-960px / 3));
+  padding-top: 0 !important;
+}
+.espacio {
+  height: calc(960px / 3);
+  background-color: #f4f4f4 !important;
+}
