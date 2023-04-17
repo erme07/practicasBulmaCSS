@@ -14,10 +14,11 @@
     />
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/article.css" />
   </head>
   <body>
-    <section class="hero is-relative">
-      <div class="overlay is-overlay"></div>
+    <section class="hero">
+      <!-- <div class="overlay is-overlay"></div> -->
       <div class="hero-head is-relative">
         <nav class="navbar is-fixed-top is-dark">
           <div class="container">
@@ -52,53 +53,48 @@
           </div>
         </nav>
       </div>
-      <div class="hero-body is-relative has-text-centered">
-        <div class="">
-          <p class="title has-text-light is-uppercase">Slogan and tagline</p>
-        </div>
-      </div>
+      <div class="hero-body py-5"></div>
+      <div class="p-1-mobile p-2-tablet p-3-desktop"></div>
       <div class="hero-foot is-relative">
-        <div class="p-3 container">
-          <div class="columns is-variable is-1-tablet is-3-desktop">
-            <div class="column is-4">
-              <figure class="image is-2by1">
-                <img src="https://picsum.photos/id/191/600/300" />
-                <figcaption
-                  class="has-text-light is-uppercase has-text-weight-semibold is-size-6"
-                >
-                  travel
-                </figcaption>
-              </figure>
-            </div>
-            <div class="column is-4">
-              <figure class="image is-2by1">
-                <img src="https://picsum.photos/id/250/600/300" />
-                <figcaption
-                  class="has-text-light is-uppercase has-text-weight-semibold is-size-6"
-                >
-                  photograph
-                </figcaption>
-              </figure>
-            </div>
-            <div class="column is-4">
-              <figure class="image is-2by1">
-                <img src="https://picsum.photos/id/452/600/300" />
-                <figcaption
-                  class="has-text-light is-uppercase has-text-weight-semibold is-size-6"
-                >
-                  music
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
+        <div class="container espacio"></div>
       </div>
     </section>
-    <main class="section">
+
+    <main class="section post">
       <div class="container">
         <div class="columns">
-          <div class="column is-8 content">
-            <article>
+          <div class="column is-8 p-5">
+            <article class="content">
+              <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+                <ul class="m-0 is-align-items-center">
+                  <li class="mt-1">
+                    <a href="#">
+                      <span class="icon is-small ml-0">
+                        <i class="fas fa-home" aria-hidden="true"></i>
+                      </span>
+                      Home
+                    </a>
+                  </li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Tecnology</a></li>
+                  <li class="is-active">
+                    <a href="#" aria-current="page">Titulo del articulo</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="tags">
+                <span class="tag">One</span>
+                <span class="tag">Two</span>
+                <span class="tag">Three</span>
+              </div>
+              <h1 class="title is-1 mt-1">Titulo del articulo primero</h1>
+              <h3 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+                nihil.
+              </h3>
+              <div class="image is-3by2">
+                <img src="https://picsum.photos/id/424/1280/720" alt="" />
+              </div>
               <h1>Hello World</h1>
               <p>
                 Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur
