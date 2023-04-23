@@ -1,7 +1,8 @@
 .hero {
 }
 main {
-  transform: translateY(calc(-960px / 3));
+  /* transform: translateY(calc(-960px / 3)); */
+  margin-top: calc(-960px / 3);
   padding-top: 0 !important;
 }
 .espacio {
